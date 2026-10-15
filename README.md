@@ -65,7 +65,6 @@ See `config/zp.inventory.filter.cfg` for a complete commented sample. Important 
 - The plugin observes existing **UI ItemCells** and applies **CanvasGroup / LayoutElement** visibility; it does not patch game methods with Harmony, directly modify inventory collections, equip/consume items, or interact with save objects.
 - Native UI selection may still trigger the game's own selection callbacks. **No mod can guarantee compatibility with every game update or save.** Keep a save backup before trying new game builds or other inventory mods.
 - Unknown stat data is kept visible as a safety fallback; this can include an item that cannot be confidently classified.
-- This version was **compiled and statically reviewed**, but the cleaned v1.0.0 binary requires a final in-game smoke test. The functional baseline, v0.2.5, was tested in gameplay beforehand.
 - No filtering by item type, item name, fatigue, or status effects is provided.
 
 ## Troubleshooting
