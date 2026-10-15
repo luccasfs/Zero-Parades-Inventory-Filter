@@ -1,7 +1,7 @@
 # Zero Parades Inventory Filter v1.0.0 — Independent Implementation Audit
 
 **Date:** 15 October 2026  
-**Purpose:** Technical code-and-packaging similarity assessment before independent publication.  
+**Purpose:** Technical assessment of implementation originality, code similarity, and release-package independence.  
 **Assessment type:** Static binary metadata/IL comparison, source review, and release-archive inspection. **Not a legal opinion or a clean-room certification.**
 
 ## Executive finding
@@ -46,19 +46,6 @@ Reviewed release archive: `ZeroParades_InventoryFilter_v1.0.0.zip` (SHA-256 `ba4
 **General platform/legal limits.** The original Nexus page says permission is required to modify its files and to reuse its assets and disallows redistributing its uploaded file. An independent work that does not include those files or protected expression is a different question from redistributing/patching the original; Nexus can nevertheless investigate complaints. Brazilian Law 9,609/1998, Art. 6(III) recognizes that resemblance arising from functional/technical constraints alone is not necessarily infringement; application to specific facts needs legal evaluation.
 
 **Other rights:** This is not a clearance of the game's own art/UI, publisher terms, font licenses, trademarks, or third-party libraries. The release includes no separate external image/font files, but screenshots used for promotional purposes should still respect game/platform rules. Plugin loader and game references are linked, not bundled.
-
-## Pre-publication checklist
-
-- [x] Independent compiled plugin DLL and BepInEx plugin ID.
-- [x] No original mod DLL inside the release archive.
-- [x] No embedded art/images or original compiled resources detected.
-- [x] No matching substantive IL methods identified by the specified tests.
-- [x] Different UI and item-stat implementations confirmed by method-call analysis.
-- [ ] Review **side-by-side in-game appearance** for unusually distinctive copied presentation.
-- [ ] Credit **Su4enka's ZeroParades Clothing Filter** for inspiration, without suggesting affiliation or endorsement.
-- [ ] Present as a new mod, **not an official update, patch, fork, or redistributable copy** of the original.
-- [ ] If releasing source, select a license for your independently authored contributions and document third-party requirements; do not purport to license the game's or another author's materials.
-- [ ] Keep a copy of the release ZIP, original binary hashes, and this audit for provenance.
 
 ### Public references
 
